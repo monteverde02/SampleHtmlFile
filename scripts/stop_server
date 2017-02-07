@@ -1,0 +1,7 @@
+#!/bin/bash
+#in the event that the web server is already running stop it prior to doing the update
+isExistApp = `pgrep httpd`
+if [[ -n  $isExistApp ]]; then
+    service httpd stop        
+fi
+

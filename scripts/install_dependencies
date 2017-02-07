@@ -1,0 +1,4 @@
+#!/bin/bash
+#install web server on client
+yum install -y httpd
+
